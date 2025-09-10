@@ -6,4 +6,5 @@ R = 0.05
 T = 3
 #simple interest
 S = P*R*T
+#final results
 print(f"The simple interest is {S}")
