@@ -6,4 +6,4 @@ R = 0.05
 T = 3
 #simple interest
 S = P*R*T
-print(f"The simple interest is {R}")
+print(f"The simple interest is {S}")
