@@ -1,9 +1,9 @@
 #principal with a value
-p = 1000
+P = 1000
 #rate
-r = 0.05
+R = 0.05
 #time in years
-t = 3
+T = 3
 #simple interest
-i = p * r * t
-print(f"The simple interest is {i}")
+S = P*R*T
+print(f"The simple interest is {R}")
