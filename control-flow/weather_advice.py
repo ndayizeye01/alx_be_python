@@ -1,6 +1,8 @@
 # Ask the user to input the current weather and store it in a variable
 # Example inputs: "sunny", "rainy", "cold"
 weather = input("What's the weather like today? (sunny/rainy/cold): ")
+# Convert the input to lowercase so it works regardless of what the user types
+weather = weather.lower()
 
 # Convert the user's input to lowercase and check if it matches "sunny"
 if weather == 'sunny':
