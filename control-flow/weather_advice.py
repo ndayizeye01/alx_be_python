@@ -1,19 +1,19 @@
 # Ask the user to input the current weather and store it in a variable
 # Example inputs: "sunny", "rainy", "cold"
-current_weather = input("What's the weather like today? (sunny/rainy/cold):")
+weather = input("What's the weather like today? (sunny/rainy/cold):")
 
 # Convert the user's input to lowercase and check if it matches "sunny"
-if current_weather.lower() == "sunny":
+if weather.lower() == "sunny":
     # If the weather is sunny, suggest wearing light clothing and sunglasses
     print("Wear a t-shirt and sunglasses.")
 
 # Check if the weather is "rainy"
-elif current_weather.lower() == "rainy":
+elif weather.lower() == "rainy":
     # If it's rainy, suggest taking an umbrella and wearing a raincoat
     print("Don't forget your umbrella and a raincoat.")
 
 # Check if the weather is "cold"
-elif current_weather.lower() == "cold":
+elif weather.lower() == "cold":
     # If it's cold, suggest wearing warm clothing like a coat and scarf
     print("Make sure to wear a warm coat and a scarf.")
 
