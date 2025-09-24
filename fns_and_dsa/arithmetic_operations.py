@@ -31,6 +31,9 @@ def perform_operation(num1, num2, operation):
                 results = num1 / num2
             except ZeroDivisionError:
                 results = "Cannot divide by zero."
+        case _:
+            #Hndling invalid operation
+            results = "Invalid Operation."
 
     # Return the computed result
     return results
