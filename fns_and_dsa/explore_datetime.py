@@ -6,7 +6,7 @@ def display_current_datetime():
 
 # Call the function and store the result in a variable
 current_date = display_current_datetime()
-print(f"Current date and time: {current_date}")   # Print the current date and time
+print(f"Current date and time: {current_date.strftime("%Y-%m-%d %H:%M:%S")}")   # Print the current date and time
 
 # Ask the user how many days they want to add to the current date
 days = int(input("Enter the number of days to add to the current date: "))
