@@ -28,4 +28,4 @@ elif type_of_temperature == 'C':
     print(f"{temperature}°C is {convert_to_fahrenheit(temperature)}°F")
 else:
     # Handle invalid input
-    print("Invalid temperature")
+    print("Invalid temperature. Please enter a numeric value.")
