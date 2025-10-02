@@ -12,7 +12,7 @@ class BankAccount:
             self.account_balance -= float(amount)
             return self.account_balance
         else:
-            return "Insuficient funds."
+            print("Insuficient funds.")
 
 
     def display_balance(self):
