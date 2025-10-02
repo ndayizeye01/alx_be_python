@@ -10,9 +10,9 @@ class BankAccount:
     def withdraw(self, amount):
         if self.account_balance>=float(amount):
             self.account_balance -= float(amount)
-            return self.account_balance
+            return True
         else:
-            return "Insufficient funds."
+            return False
         
 
 
