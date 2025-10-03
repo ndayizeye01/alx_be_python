@@ -7,19 +7,19 @@ class TestSimpleCalculator(unittest.TestCase):
         """Set up the SimpleCalculator instance before each test."""
         self.SimpleCalculator = SimpleCalculator()
 
-    def test_add(self):
+    def test_addition(self):
         results = self.SimpleCalculator.add(5,3)
         self.assertEqual(results,8)
 
-    def test_subtract(self):
+    def test_subtraction(self):
         results = self.SimpleCalculator.subtract(5,3)
         self.assertEqual(results,2)
 
-    def test_multiply(self):
+    def test_multiplication(self):
         results = self.SimpleCalculator.multiply(5,3)
         self.assertEqual(results,15)
 
-    def test_divide(self):
+    def test_division(self):
         results = self.SimpleCalculator.divide(15,3)
         self.assertEqual(results,5)
         with self.assertRaises(ZeroDivisionError):
